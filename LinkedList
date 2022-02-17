@@ -1,0 +1,14 @@
+package com.company;
+import java.util.LinkedList;
+
+class Main {
+    public static void main(String[] args){
+
+        LinkedList<String> algor = new LinkedList<>();
+
+        algor.add("Array");
+        algor.add("Select");
+        algor.add("LinkedList");
+        System.out.println("LinkedList: " + algor);
+    }
+}
